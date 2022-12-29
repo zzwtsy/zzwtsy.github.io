@@ -209,22 +209,22 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>友情链接</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2 id="我的友链"><a href="#我的友链" class="headerlink" title="我的友链"></a>我的友链</h2><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Daydreamer</span></span><br><span class="line">  <span class="attr">link:</span> <span class="string">https://blog.yumdeb.top</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://npm.elemecdn.com/blog-zzwtsy/favicon_avatar/1xnWTsqiJpCgKtd.jpg</span></span><br><span class="line">  <span class="attr">descr:</span> <span class="string">Daydreamer</span> <span class="string">Life</span></span><br></pre></td></tr></table></figure><h2 id="加入本站友链方式"><a href="#加入本站友链方式" class="headerlink" title="加入本站友链方式"></a>加入本站友链方式</h2><p>请参照以下格式留言</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="comment">#站点名称</span></span><br><span class="line">  <span class="attr">link:</span> <span class="comment">#站点链接</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="comment">#站长头像</span></span><br><span class="line">  <span class="attr">descr:</span> <span class="comment">#站点描述</span></span><br></pre></td></tr></table></figure>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>友情链接</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[<h2 id="我的友链"><a href="#我的友链" class="headerlink" title="我的友链"></a>我的友链</h2><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Daydreamer</span></span><br><span class="line">  <span class="attr">link:</span> <span class="string">https://blog.yumdeb.top</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://npm.elemecdn.com/blog-zzwtsy/favicon_avatar/1xnWTsqiJpCgKtd.jpg</span></span><br><span class="line">  <span class="attr">descr:</span> <span class="string">Daydreamer</span> <span class="string">Life</span></span><br></pre></td></tr></table></figure><h2 id="加入本站友链方式"><a href="#加入本站友链方式" class="headerlink" title="加入本站友链方式"></a>加入本站友链方式</h2><p>请参照以下格式留言</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="comment">#站点名称</span></span><br><span class="line">  <span class="attr">link:</span> <span class="comment">#站点链接</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="comment">#站长头像</span></span><br><span class="line">  <span class="attr">descr:</span> <span class="comment">#站点描述</span></span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     

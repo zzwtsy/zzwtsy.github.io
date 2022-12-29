@@ -12,5 +12,3 @@ Disallow: /fonts/
 
 Sitemap: https://blog.yumdeb.top/sitemap.xml
 Sitemap: https://blog.yumdeb.top/baidusitemap.xml
-Sitemap: https://www.yumdeb.top/sitemap.xml
-Sitemap: https://www.yumdeb.top/baidusitemap.xml
