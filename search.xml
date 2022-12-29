@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Eclipse 设置</title>
+      <link href="/post/cd8d2bba.html"/>
+      <url>/post/cd8d2bba.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="设置代码提示"><a href="#设置代码提示" class="headerlink" title="设置代码提示"></a>设置代码提示</h2><ol><li>点击<code>Windows</code>-&gt;<code>Preferences</code>-&gt;<code>Java</code>-&gt;<code>Editor</code>-&gt;<code>Content Assist</code><br><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-10-15_210657/1-1.jpg" alt="1-1"><br><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-10-15_210657/1-2.jpg" alt="1-2"></li><li>在<code>Auto activation triggers for Java</code>中输入所有英文字母（包括大小写）</li></ol><h2 id="设置中文"><a href="#设置中文" class="headerlink" title="设置中文"></a>设置中文</h2><ol><li>点击<code>Help</code>-&gt;<code>Install New Software</code>-&gt;<code>Add</code><br><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-10-15_210657/2-1.jpg" alt="2-1"><br>添加这个<code>https://mirrors.ustc.edu.cn/eclipse/technology/babel/update-site/latest/</code>网址，点击<code>Add</code><br><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-10-15_210657/2-2.jpg" alt="2-2"> 2.选择<code>Bable Language Packs in Chinese (Simplifies)</code><br><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-10-15_210657/2-3.jpg" alt="2-3"></li><li>点击<code>Finish</code>，由于服务器在国外可能会等好久<br><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-10-15_210657/2-4.jpg" alt="2-4"></li><li>下载完成后会出现一个弹窗，选择<code>Select All</code>再选择<code>Trust Select</code>，等一会会出现重启弹窗，重启过后就变成中文了<br><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-10-15_210657/2-5.png" alt="2-5"></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Program </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Eclipse </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Archlinux 激活 Navicat</title>
+      <link href="/post/3b1d8afb.html"/>
+      <url>/post/3b1d8afb.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="第一步下载激活软件"><a href="#第一步下载激活软件" class="headerlink" title="第一步下载激活软件"></a>第一步下载激活软件</h2><p>下载我编译好的激活软件：<a href="https://github.com/zzwtsy/navicat-keygen/actions">下载地址</a><br>或者自行编译激活软件：<a href="https://notabug.org/doublesine/navicat-keygen">仓库地址</a>、<a href="https://notabug.org/doublesine/navicat-keygen/src/linux/doc/how-to-build.zh-CN.md">编译教程</a></p><h2 id="第二步-patch-Navicat"><a href="#第二步-patch-Navicat" class="headerlink" title="第二步 patch Navicat"></a>第二步 patch Navicat</h2><p>yay 安装的 Navicat 在 opt 目录下的 Navicat 目录里<br>在 navicat-patcher 目录运行以下命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">chmod</span> +x navicat-patcher</span><br><span class="line"></span><br><span class="line">./navicat-patcher /opt/<span class="string">&quot;你的 Navicat 目录&quot;</span></span><br></pre></td></tr></table></figure><h2 id="第三步生成激活密钥"><a href="#第三步生成激活密钥" class="headerlink" title="第三步生成激活密钥"></a>第三步生成激活密钥</h2><ol><li>在 navicat-keygen 目录运行以下命令：</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">chmod</span> +x navicat-keygen</span><br><span class="line"></span><br><span class="line">./navicat-keygen --text ./RegPrivateKey.pem</span><br></pre></td></tr></table></figure><ol start="2"><li>选择你下载的 Navicat 版本</li></ol><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">[*] Select Navicat product:</span><br><span class="line"> 0. DataModeler</span><br><span class="line"> 1. Premium</span><br><span class="line"> 2. MySQL</span><br><span class="line"> 3. PostgreSQL</span><br><span class="line"> 4. Oracle</span><br><span class="line"> 5. SQLServer</span><br><span class="line"> 6. SQLite</span><br><span class="line"> 7. MariaDB</span><br><span class="line"> 8. MongoDB</span><br><span class="line"> 9. ReportViewer</span><br><span class="line"></span><br><span class="line">(Input index)&gt; 1</span><br></pre></td></tr></table></figure><ol start="3"><li>选择你下载的 Navicat 语言版本</li></ol><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">[*] Select product language:</span><br><span class="line"> 0. English</span><br><span class="line"> 1. Simplified Chinese</span><br><span class="line"> 2. Traditional Chinese</span><br><span class="line"> 3. Japanese</span><br><span class="line"> 4. Polish</span><br><span class="line"> 5. Spanish</span><br><span class="line"> 6. French</span><br><span class="line"> 7. German</span><br><span class="line"> 8. Korean</span><br><span class="line"> 9. Russian</span><br><span class="line"> 10. Portuguese</span><br><span class="line"></span><br><span class="line">(Input index)&gt; 1</span><br></pre></td></tr></table></figure><ol start="4"><li>输入你的 Navicat 主版本号（11 至 16）回车为版本 16</li></ol><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[*] Input major version number:</span><br><span class="line">(range: 11 ~ 16, default: 16)&gt; 16</span><br></pre></td></tr></table></figure><ol start="5"><li>复制 Serial number</li></ol><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[*] Serial number:</span><br><span class="line">NAVB-EZF4-7T7X-9MPG</span><br></pre></td></tr></table></figure><ol start="6"><li>输入你的名字随便输（英文）不要太长</li></ol><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[*] Your name:</span><br></pre></td></tr></table></figure><ol start="7"><li>输入你的组织随便输（英文）不要太长</li></ol><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[*] Your organization:</span><br></pre></td></tr></table></figure><ol start="8"><li>断网开始激活<ol><li>将 Serial number 输入到 Navicat 里</li><li>选择手动激活</li><li>复制 Navicat 生成的请求码放入到控制台里，然后回车两次<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[*] Input request code in Base64: (Double press ENTER to end)</span><br></pre></td></tr></table></figure></li><li>复制控制台里生成的激活码<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[*] Activation Code:</span><br><span class="line">xxxxxxxxxxxxxxxxxxxxxxxxxxxx</span><br></pre></td></tr></table></figure></li><li>将激活码粘贴到 Navicat 里的激活码输入框里进行激活</li></ol></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+            <tag> 软件激活 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>IDEA 创建JAVA JSP 项目</title>
+      <link href="/post/e74d.html"/>
+      <url>/post/e74d.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="创建-JAVA-WEB-项目"><a href="#创建-JAVA-WEB-项目" class="headerlink" title="创建 JAVA WEB 项目"></a>创建 JAVA WEB 项目</h2><p>IDEA（版本） Ultimate Edition 2022.2.2（社区版本不支持创建JavaEE项目）</p><p>1.第一种方式(推荐)</p><p>在 IDEA 界面按 <code>Ctrl + Shift +Alt + /</code> 调出维护界面，然后选择注册表<br><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-09-19_195024/2022-09-27_115654.png" alt="维护界面"><br>进入注册表管理界面后找到<code>javaee.legacy.project.wizard</code> 然后勾选此项<br><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-09-19_195024/2022-09-27_115558.png" alt="注册表"><br>之后在创建项目时就会有 JavaEE 模板了<br><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-09-19_195024/2022-09-27_120133.png" alt="创建项目"><br>2.第二种方式（不推荐）</p><p>在新建项目时，模板选择<code>Web 应用程序</code><br><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-09-19_195024/2022-09-19-195221.png" alt="项目创建"></p><p>下一步后<code>版本</code>选择<code>Java EE 8</code><br><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-09-19_195024/2022-09-19-200445.png" alt="Java EE 版本选择"></p><h2 id="EL-表达式警告"><a href="#EL-表达式警告" class="headerlink" title="EL 表达式警告"></a>EL 表达式警告</h2><p>出现无法解析变量警告无视即可，如果和我一样有强迫症，记得选择<code>声名外部变量在注解</code>，选择<code>声名外部变量作为&lt;jsp:useBean&gt;</code>会报错（不知道为什么会这样）</p><p><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-09-19_195024/2022-09-19-194517.png" alt="警告修复"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> IDEA </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> IDEA </tag>
+            
+            <tag> JAVA </tag>
+            
+            <tag> JSP </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Archlinux Steam 中文乱码</title>
+      <link href="/post/5cdd.html"/>
+      <url>/post/5cdd.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="第一种方法"><a href="#第一种方法" class="headerlink" title="第一种方法"></a>第一种方法</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yay -S lib32-fontconfig</span><br></pre></td></tr></table></figure><h2 id="第二种方法-不推荐"><a href="#第二种方法-不推荐" class="headerlink" title="第二种方法(不推荐)"></a><del>第二种方法(不推荐)</del></h2><h3 id="新建-Steam-fonts-conf"><a href="#新建-Steam-fonts-conf" class="headerlink" title="新建 Steam-fonts.conf"></a>新建 Steam-fonts.conf</h3><p>随便那个文件夹都可以</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim Steam-fonts.conf</span><br></pre></td></tr></table></figure><h3 id="在文件内输入以下文本"><a href="#在文件内输入以下文本" class="headerlink" title="在文件内输入以下文本"></a>在文件内输入以下文本</h3><p>如果不想用“WenQuanYi Zen Hei”可修改为其他字体</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version=<span class="string">&quot;1.0&quot;</span>?&gt;</span></span><br><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">fontconfig</span> <span class="keyword">SYSTEM</span> <span class="string">&quot;fonts.dtd&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">fontconfig</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">include</span> <span class="attr">ignore_missing</span>=<span class="string">&quot;no&quot;</span>&gt;</span>fonts.conf<span class="tag">&lt;/<span class="name">include</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">match</span> <span class="attr">target</span>=<span class="string">&quot;pattern&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">test</span> <span class="attr">qual</span>=<span class="string">&quot;any&quot;</span> <span class="attr">name</span>=<span class="string">&quot;family&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">string</span>&gt;</span>Arial<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">test</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">edit</span> <span class="attr">name</span>=<span class="string">&quot;family&quot;</span> <span class="attr">mode</span>=<span class="string">&quot;assign&quot;</span> <span class="attr">binding</span>=<span class="string">&quot;same&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">string</span>&gt;</span>WenQuanYi Zen Hei<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">edit</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">match</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">fontconfig</span>&gt;</span></span><br></pre></td></tr></table></figure><h3 id="修改-profile-文件"><a href="#修改-profile-文件" class="headerlink" title="修改 profile 文件"></a>修改 profile 文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/profile</span><br></pre></td></tr></table></figure><p>在最后一行添加<code>export FONTCONFIG_FILE=你的Steam-fonts.conf文件地址</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Archlinux </tag>
+            
+            <tag> Steam </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>emmet 安装及使用</title>
+      <link href="/post/5f5d.html"/>
+      <url>/post/5f5d.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="安装-Emmet"><a href="#安装-Emmet" class="headerlink" title="安装 Emmet"></a>安装 Emmet</h2><p>在 sublime 界面按 curl + shift + p 搜索 install package</p><p><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-08-31_111836/2022-08-31_112229.png" alt="屏幕截图 2022-08-31 112229.png"></p><p>回车进入到插件安装界面</p><p><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-08-31_111836/2022-08-31_112320.png" alt="屏幕截图 2022-08-31 112320.png"><br>搜索 Emmet 回车安装插件<br>(tips:如果搜索出来第一个不是 Emmet 插件，就按上下方向键选中 Emmet 插件<br>如果你没有 Emmet 插件那就说明你已经安装过这个插件了)</p><p><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-08-31_111836/2022-08-31_112454.png" alt="屏幕截图 2022-08-31 112454.png"></p><h2 id="卸载插件"><a href="#卸载插件" class="headerlink" title="卸载插件"></a>卸载插件</h2><p>按 curl + shift + p 搜索 remove package</p><p><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-08-31_111836/remove1.png" alt="remove1.png"></p><p>回车进入到插件卸载界面</p><p><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-08-31_111836/remove2.png" alt="remove2.png"></p><p>搜索 Emmet 回车卸载插件</p><p><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-08-31_111836/remove3.png" alt="remove3.png"></p><h2 id="Emmet-插件使用"><a href="#Emmet-插件使用" class="headerlink" title="Emmet 插件使用"></a>Emmet 插件使用</h2><p>在 HTML 文件中输入!(英文)按 tap 生成 HTML 模板<br>(tips：在 sublime 中新建文件后一定要按 curl + s 保存为 xxx.html 否则代码补全不生效)</p><p><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-08-31_111836/gif10.gif" alt="gif10.gif"></p><h3 id="生成多个标签（以-div-为例）"><a href="#生成多个标签（以-div-为例）" class="headerlink" title="生成多个标签（以 div 为例）"></a>生成多个标签（以 div 为例）</h3><p>生成四个 div：div*4</p><p><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-08-31_111836/gif1.gif" alt="gif1.gif"></p><h3 id="生成标签-id-名或-class-名"><a href="#生成标签-id-名或-class-名" class="headerlink" title="生成标签 id 名或 class 名"></a>生成标签 id 名或 class 名</h3><p>生成 class 名为 test 的标签： div.test<br>tips：生成多个类名：div.test1.test2</p><p><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-08-31_111836/gif2.gif" alt="gif2.gif"></p><p>生成 id 名为 test 的标签： div#test</p><p><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-08-31_111836/gif3.gif" alt="gif3.gif"></p><h3 id="生成标签的下属标签"><a href="#生成标签的下属标签" class="headerlink" title="生成标签的下属标签"></a>生成标签的下属标签</h3><p>生成 ul 标签下的 4 个 li</p><p><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-08-31_111836/gif4.gif" alt="gif4.gif"></p><h3 id="生成同级标签"><a href="#生成同级标签" class="headerlink" title="生成同级标签"></a>生成同级标签</h3><p>div+p</p><p><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-08-31_111836/gif6.gif" alt="gif6.gif"></p><h3 id="生成内容"><a href="#生成内容" class="headerlink" title="生成内容"></a>生成内容</h3><h4 id="相同数字"><a href="#相同数字" class="headerlink" title="相同数字"></a>相同数字</h4><p>div*5{1}</p><p><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-08-31_111836/gif7.gif" alt="gif7.gif"></p><h4 id="正序数字"><a href="#正序数字" class="headerlink" title="正序数字"></a>正序数字</h4><p>div*5{$}<br>tips：一个$符号代表一位数字<br><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-08-31_111836/gif8.gif" alt="gif8.gif"></p><h4 id="到序数字"><a href="#到序数字" class="headerlink" title="到序数字"></a>到序数字</h4><p>div*5{$@-}<br><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-08-31_111836/gif9.gif" alt="gif9.gif"></p><h3 id="生成-link"><a href="#生成-link" class="headerlink" title="生成 link"></a>生成 link</h3><p>生成 css link：link:css<br>tips：生成 js 链接 script:src</p><p><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-08-31_111836/gif5.gif" alt="gif5.gif"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> sublime </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> emmet </tag>
+            
+            <tag> sublime </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>linux wifi 显示问号</title>
+      <link href="/post/b54d.html"/>
+      <url>/post/b54d.html</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-08-27_153645/cvYfJVo5ujDmNFT.png" alt="截屏-20220827144819-166x58.png"></p><p>安装 archlinux gnome 桌面后 WIFI 图标总是显示问号，在网上找了好久解决方法，总算找到了，记录一下。</p><h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p>打开 20-connectivity.conf 文件</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/NetworkManager/conf.d/20-connectivity.conf</span><br></pre></td></tr></table></figure><h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p>向文件内添加以下内容</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[connectivity]</span><br><span class="line">enabled=false</span><br></pre></td></tr></table></figure><h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><p>重启电脑</p><h2 id="用到的网站"><a href="#用到的网站" class="headerlink" title="用到的网站"></a>用到的网站</h2><p><a href="https://wiki.archlinux.org/title/NetworkManager#Checking_connectivity">https://wiki.archlinux.org/title/NetworkManager#Checking_connectivity</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+            <tag> wifi </tag>
+            
+            <tag> NetworkManager </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>TrueNAS Core 网卡直通</title>
+      <link href="/post/3008.html"/>
+      <url>/post/3008.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p>进入 Truenas core shell 使用文本编辑器打开 &#x2F;boot 目录下的 loader.conf 文件<br>代码：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /boot/loader.conf</span><br></pre></td></tr></table></figure><h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><h3 id="加载-vmm-ko"><a href="#加载-vmm-ko" class="headerlink" title="加载 vmm.ko"></a>加载 vmm.ko</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vmm_load=<span class="string">&quot;YES&quot;</span></span><br></pre></td></tr></table></figure><h3 id="添加网卡设备编号"><a href="#添加网卡设备编号" class="headerlink" title="添加网卡设备编号"></a>添加网卡设备编号</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pptdevs=<span class="string">&quot;4/0/0 4/0/1&quot;</span> </span><br></pre></td></tr></table></figure><p>这行代码中的 4&#x2F;0&#x2F;0 4&#x2F;0&#x2F;1 在 shell 中输入  pciconf -v -l 这条命令来查看，pci 设备编号就是下图红线部分。<br>我的设备是 82576 双口网卡，编号是 0:4:0:0 和 0:4:0:1 那么我要添加的代码就是 4&#x2F;0&#x2F;0 和 4&#x2F;0&#x2F;1，多个 pci 编号用空格分开<br><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-08-19_213146/gd9qRm7bwLpfPac.webp" alt="设备编号"></p><h3 id="AMD-Vi-直通支持"><a href="#AMD-Vi-直通支持" class="headerlink" title="AMD-Vi 直通支持"></a>AMD-Vi 直通支持</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hw.vmm.amdvi.enable=1 <span class="comment">#这行代码只有amd的设备需要添加</span></span><br></pre></td></tr></table></figure><h3 id="编辑完成"><a href="#编辑完成" class="headerlink" title="编辑完成"></a>编辑完成</h3><p>你的文件编辑完成后应该与下图相似</p><p><img src="https://npm.elemecdn.com/blog-zzwtsy/2022-08-19_213146/XadRgk4GOWJ3ocL.webp" alt="loader.conf文件"></p><h2 id="用到的网站"><a href="#用到的网站" class="headerlink" title="用到的网站"></a>用到的网站</h2><p><a href="https://wiki.freebsd.org/bhyve/pci_passthru">https://wiki.freebsd.org/bhyve/pci_passthru</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> TrueNAS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> TrueNAS Core </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/post/3eeb.html"/>
+      <url>/post/3eeb.html</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+    
+    
+    <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友情链接</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="我的友链"><a href="#我的友链" class="headerlink" title="我的友链"></a>我的友链</h2><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Daydreamer</span></span><br><span class="line">  <span class="attr">link:</span> <span class="string">https://blog.yumdeb.top</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://npm.elemecdn.com/blog-zzwtsy/favicon_avatar/1xnWTsqiJpCgKtd.jpg</span></span><br><span class="line">  <span class="attr">descr:</span> <span class="string">Daydreamer</span> <span class="string">Life</span></span><br></pre></td></tr></table></figure><h2 id="加入本站友链方式"><a href="#加入本站友链方式" class="headerlink" title="加入本站友链方式"></a>加入本站友链方式</h2><p>请参照以下格式留言</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="comment">#站点名称</span></span><br><span class="line">  <span class="attr">link:</span> <span class="comment">#站点链接</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="comment">#站长头像</span></span><br><span class="line">  <span class="attr">descr:</span> <span class="comment">#站点描述</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+  
+</search>

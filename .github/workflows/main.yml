@@ -1,0 +1,16 @@
+name: Delete workflow
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 0 0 * * 1
+
+jobs:
+  del_runs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete workflow runs
+        uses: GitRML/delete-workflow-runs@main
+        with:
+          retain_days: 1
+          keep_minimum_runs: 1

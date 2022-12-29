@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Daydreamer</title>
+  <icon>https://blog.yumdeb.top/icon.png</icon>
+  
+  <link href="https://blog.yumdeb.top/atom.xml" rel="self"/>
+  
+  <link href="https://blog.yumdeb.top/"/>
+  <updated>2022-12-29T03:12:28.709Z</updated>
+  <id>https://blog.yumdeb.top/</id>
+  
+  <author>
+    <name>Daydreamer</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Eclipse 设置</title>
+    <link href="https://blog.yumdeb.top/post/cd8d2bba.html"/>
+    <id>https://blog.yumdeb.top/post/cd8d2bba.html</id>
+    <published>2022-10-15T13:06:57.000Z</published>
+    <updated>2022-12-29T03:12:28.709Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;设置代码提示&quot;&gt;&lt;a href=&quot;#设置代码提示&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Program" scheme="https://blog.yumdeb.top/categories/Program/"/>
+    
+    
+    <category term="Eclipse" scheme="https://blog.yumdeb.top/tags/Eclipse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Archlinux 激活 Navicat</title>
+    <link href="https://blog.yumdeb.top/post/3b1d8afb.html"/>
+    <id>https://blog.yumdeb.top/post/3b1d8afb.html</id>
+    <published>2022-10-08T06:28:58.000Z</published>
+    <updated>2022-12-29T03:11:42.634Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;第一步下载激活软件&quot;&gt;&lt;a href=&quot;#第一步下载激活软件&quot; class=&quot;headerlink&quot; title=&quot;第一步下载激活软件&quot;&gt;&lt;/a&gt;第一步下载激活软件&lt;/h2&gt;&lt;p&gt;下载我编译好的激活软件：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://blog.yumdeb.top/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://blog.yumdeb.top/tags/Linux/"/>
+    
+    <category term="软件激活" scheme="https://blog.yumdeb.top/tags/%E8%BD%AF%E4%BB%B6%E6%BF%80%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IDEA 创建JAVA JSP 项目</title>
+    <link href="https://blog.yumdeb.top/post/e74d.html"/>
+    <id>https://blog.yumdeb.top/post/e74d.html</id>
+    <published>2022-09-19T11:50:24.000Z</published>
+    <updated>2022-12-29T03:11:37.809Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;创建-JAVA-WEB-项目&quot;&gt;&lt;a href=&quot;#创建-JAVA-WEB-项目&quot; class=&quot;headerlink&quot; title=&quot;创建 JAVA WEB 项目&quot;&gt;&lt;/a&gt;创建 JAVA WEB 项目&lt;/h2&gt;&lt;p&gt;IDEA（版本） Ultimate</summary>
+        
+      
+    
+    
+    
+    <category term="IDEA" scheme="https://blog.yumdeb.top/categories/IDEA/"/>
+    
+    
+    <category term="IDEA" scheme="https://blog.yumdeb.top/tags/IDEA/"/>
+    
+    <category term="JAVA" scheme="https://blog.yumdeb.top/tags/JAVA/"/>
+    
+    <category term="JSP" scheme="https://blog.yumdeb.top/tags/JSP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Archlinux Steam 中文乱码</title>
+    <link href="https://blog.yumdeb.top/post/5cdd.html"/>
+    <id>https://blog.yumdeb.top/post/5cdd.html</id>
+    <published>2022-09-18T13:15:13.000Z</published>
+    <updated>2022-12-29T03:11:18.223Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;第一种方法&quot;&gt;&lt;a href=&quot;#第一种方法&quot; class=&quot;headerlink&quot; title=&quot;第一种方法&quot;&gt;&lt;/a&gt;第一种方法&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://blog.yumdeb.top/categories/Linux/"/>
+    
+    
+    <category term="Archlinux" scheme="https://blog.yumdeb.top/tags/Archlinux/"/>
+    
+    <category term="Steam" scheme="https://blog.yumdeb.top/tags/Steam/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>emmet 安装及使用</title>
+    <link href="https://blog.yumdeb.top/post/5f5d.html"/>
+    <id>https://blog.yumdeb.top/post/5f5d.html</id>
+    <published>2022-08-31T03:18:36.000Z</published>
+    <updated>2022-12-29T03:11:28.111Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;安装-Emmet&quot;&gt;&lt;a href=&quot;#安装-Emmet&quot; class=&quot;headerlink&quot; title=&quot;安装 Emmet&quot;&gt;&lt;/a&gt;安装 Emmet&lt;/h2&gt;&lt;p&gt;在 sublime 界面按 curl + shift + p 搜索 install</summary>
+        
+      
+    
+    
+    
+    <category term="sublime" scheme="https://blog.yumdeb.top/categories/sublime/"/>
+    
+    
+    <category term="emmet" scheme="https://blog.yumdeb.top/tags/emmet/"/>
+    
+    <category term="sublime" scheme="https://blog.yumdeb.top/tags/sublime/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux wifi 显示问号</title>
+    <link href="https://blog.yumdeb.top/post/b54d.html"/>
+    <id>https://blog.yumdeb.top/post/b54d.html</id>
+    <published>2022-08-27T07:36:45.000Z</published>
+    <updated>2022-12-29T03:11:47.662Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://npm.elemecdn.com/blog-zzwtsy/2022-08-27_153645/cvYfJVo5ujDmNFT.png&quot; alt=&quot;截屏-20220827144819-166x58.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;安装</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://blog.yumdeb.top/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://blog.yumdeb.top/tags/Linux/"/>
+    
+    <category term="wifi" scheme="https://blog.yumdeb.top/tags/wifi/"/>
+    
+    <category term="NetworkManager" scheme="https://blog.yumdeb.top/tags/NetworkManager/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TrueNAS Core 网卡直通</title>
+    <link href="https://blog.yumdeb.top/post/3008.html"/>
+    <id>https://blog.yumdeb.top/post/3008.html</id>
+    <published>2022-08-19T13:31:46.000Z</published>
+    <updated>2022-12-29T03:11:52.876Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;第一步&quot;&gt;&lt;a href=&quot;#第一步&quot; class=&quot;headerlink&quot; title=&quot;第一步&quot;&gt;&lt;/a&gt;第一步&lt;/h2&gt;&lt;p&gt;进入 Truenas core shell 使用文本编辑器打开 &amp;#x2F;boot 目录下的 loader.conf</summary>
+        
+      
+    
+    
+    
+    <category term="TrueNAS" scheme="https://blog.yumdeb.top/categories/TrueNAS/"/>
+    
+    
+    <category term="TrueNAS Core" scheme="https://blog.yumdeb.top/tags/TrueNAS-Core/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://blog.yumdeb.top/post/3eeb.html"/>
+    <id>https://blog.yumdeb.top/post/3eeb.html</id>
+    <published>2022-08-19T12:31:40.000Z</published>
+    <updated>2022-12-29T03:11:33.446Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
